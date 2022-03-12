@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@400;500;600&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Utility Classes */
+
+.underline {
+    text-decoration: underline;
+}
+
+.crs-pointer {
+    cursor: pointer;
+}
+
+.body-1 {
+    font-weight: 400;
+}
+
+.body-2 {
+    font-weight: 600;
+}
+
+.btn-dark {
+    background: #3b3d42;
+    color: #fff;
+    border-radius: 20px;
+    text-decoration: none;
+    padding: .75rem;
+    opacity: .9;
+}
+
+.btn-light {
+    color: #3b3d42;
+    background: #fff;
+    border-radius: 20px;
+    text-decoration: none;
+    padding: .75rem;
+    opacity: .9;
+}
+
+.btn-dark:hover, .btn-light:hover {
+    opacity: 0.8;
+}

@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@400;500;600&display=swap');
+
+/* Reset */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Gothic A1', sans-serif;
+}
+
+/* Navbar */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.navbar .logo img, .navbar .hamburger img {
+    height: 15px;
+}
+
+.navbar .logo, .navbar .hamburger {
+    margin: 1.5rem;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.section .section-btns {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    padding-top: 5rem;
+}
+
+.section .section-btns a {
+    font-size: 12px;
+    margin-top: 1rem;
+}
+
+.section .section-title h2 {
+    font-size: 36px;
+    color: #171a20;
+}
+
+.section .section-title p {
+    font-size: 14px;
+    color: #171a20;
+}
+
+/* Sections Backgrounds */
+
+.tesla-3 {
+    background: url(./img/tesla-3.jpg) no-repeat center center/cover;
+}
+
+.tesla-y {
+    background: url(./img/tesla-y.jpg) no-repeat center center/cover;
+}
+
+.tesla-s {
+    background: url(./img/tesla-s.jpg) no-repeat center center/cover;
+}
