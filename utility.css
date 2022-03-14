@@ -2,6 +2,7 @@
 
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 /* Utility Classes */
@@ -42,4 +43,17 @@ html {
 
 .btn-dark:hover, .btn-light:hover {
     opacity: 0.8;
+}
+
+.hidden, .hidden-below-768 {
+    display: none;
+}
+
+@media(min-width: 768px) {
+    .hidden-above-768 {
+        display: none;
+    }
+    .hidden-below-768 {
+        display: block;
+    }
 }
