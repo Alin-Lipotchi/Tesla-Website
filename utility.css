@@ -7,6 +7,10 @@ html {
 
 /* Utility Classes */
 
+.white {
+    color: #fff;
+}
+
 .underline {
     text-decoration: underline;
 }
@@ -21,6 +25,18 @@ html {
 
 .body-2 {
     font-weight: 600;
+}
+
+.small-text {
+    font-size: 10px;
+}
+
+.medium-text {
+    font-size: 20px;
+}
+
+.big-text {
+    font-size: 30px;
 }
 
 .btn-dark {
@@ -41,12 +57,68 @@ html {
     opacity: .9;
 }
 
-.btn-dark:hover, .btn-light:hover {
+.btn-border-light {
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+    padding: .5rem 1rem;
+    border: 3px #fff solid;
+    border-radius: 40px;
+    width: 300px;
+    display: block;
+    text-align: center;
+}
+
+.btn-border-light-bg {
+    text-decoration: none;
+    color: #171a20;
+    font-size: 12px;
+    padding: .5rem 1rem;
+    border: 3px #fff solid;
+    background: #fff;
+    border-radius: 40px;
+    width: 300px;
+    display: block;
+    text-align: center;
+}
+
+.btn-border-dark {
+    text-decoration: none;
+    color: #171a20;
+    font-size: 12px;
+    padding: .5rem 1rem;
+    border: 3px #171a20 solid;
+    border-radius: 40px;
+    width: 300px;
+    display: block;
+    text-align: center;
+}
+
+.btn-border-light:hover {
+    background: #fff;
+    color: #3b3d42;
+}
+
+.btn-border-dark:hover {
+    border: #3b3d42 solid 3px;
+    background: #171a20;
+    color: #fff;
+}
+
+.btn-dark:hover, .btn-light:hover, .btn-border-light-bg:hover {
     opacity: 0.8;
 }
 
 .hidden, .hidden-below-768 {
     display: none;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
 }
 
 @media(min-width: 768px) {
