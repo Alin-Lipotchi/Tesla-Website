@@ -19,6 +19,23 @@ html {
     cursor: pointer;
 }
 
+.text-center {
+    text-align: center;
+}
+
+.p1 {
+    padding: 1rem;
+}
+
+.mt1 {
+    margin-top: 1rem;
+}
+
+.mauto {
+    margin-right: auto;
+    margin-left: auto;
+}
+
 .body-1 {
     font-weight: 400;
 }
@@ -29,6 +46,10 @@ html {
 
 .small-text {
     font-size: 10px;
+}
+
+.twelve-px-text {
+    font-size: 12px;
 }
 
 .medium-text {
@@ -94,6 +115,26 @@ html {
     text-align: center;
 }
 
+.btn-blue, .btn-blue-big {
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+    padding: .5rem 1rem;
+    border-radius: 40px;
+    width: 300px;
+    display: block;
+    text-align: center;
+    background: #3E6AE1;
+}
+
+.btn-blue-big {
+    padding: 1rem;
+}
+
+.btn-blue:hover, .btn-blue-big:hover {
+    background: #2E5AD1;
+}
+
 .btn-border-light:hover {
     background: #fff;
     color: #3b3d42;
@@ -121,11 +162,25 @@ html {
     flex-direction: column;
 }
 
+@media(min-width: 576px) {
+    .text-centered-above-576 {
+        text-align: center;
+    }
+}
+
 @media(min-width: 768px) {
     .hidden-above-768 {
         display: none;
     }
     .hidden-below-768 {
         display: block;
+    }
+
+    .text-centered-above-768 {
+        text-align: center;
+    }
+
+    ul {
+        text-align: center;
     }
 }
