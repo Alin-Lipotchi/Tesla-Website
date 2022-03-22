@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="order.css">
+    <link rel="stylesheet" href="menus.css">
     <link rel="stylesheet" href="utility.css">
     <title>Tesla | Order</title>
 </head>
@@ -60,35 +61,35 @@
                         <p id="speed" class="head-text body-2">140 mph</p>
                         <p class="bot-text">Top Speed</p>
                     </div>
-                    <div id="0to60" class="col">
-                        <p class="head-text body-2">5.8 sec</p>
+                    <div class="col">
+                        <p id="zero-to60" class="head-text body-2">5.8 sec</p>
                         <p class="bot-text">0-60 mph</p>
                     </div>
                 </div>
 
-                <h3 class="body-2 text-centered-above-576">Rear-Wheel Drive</h3>
-                <a href="#" class="active model-option">
-                    <p class="body-2">Model 3</p>
-                    <p class="body-2">$41,940</p>
+                <h3 class="body-2 text-centered-above-576 text-left-above-992">Rear-Wheel Drive</h3>
+                <a href="#" class="active model-option body-2" id="model-3-default">
+                    <p class="body-2" id="model-3-default">Model 3</p>
+                    <p class="body-2" id="model-3-default">$41.940</p>
                 </a>
-                <h3 class="body-2 text-centered-above-576">Dual Motor All-Wheel Drive</h3>
-                <a href="#" class="model-option">
-                    <p class="body-2">Model 3 Long Range</p>
-                    <p class="body-2">$49,440</p>
+                <h3 class="body-2 text-centered-above-576 text-left-above-992">Dual Motor All-Wheel Drive</h3>
+                <a href="#" class="model-option body-2" id="long-range">
+                    <p class="body-2" id="long-range">Model 3 Long Range</p>
+                    <p class="body-2" id="long-range">$49.440</p>
                 </a>
-                <a href="#" class="model-option">
-                    <p class="body-2">Model 3 Performance</p>
-                    <p class="body-2">$56,940</p>
+                <a href="#" class="model-option " id="performance">
+                    <p class="body-2" id="performance">Model 3 Performance</p>
+                    <p class="body-2" >$56.940</p>
                 </a>
 
                 <p class="text-center body-2 small-text p1">FEATURE DETAILS</p>
                 <h2>Paint</h2>
                 <div class="options">
-                    <a id="color-white" href="#" class="active"><img src="./img/order/Paint_White.png" alt=""></a>
-                    <a id="color-silver" href="#"><img src="./img/order/Paint_MidnightSilver.png" alt=""></a>
-                    <a id="color-blue" href="#"><img src="./img/order/Paint_Blue.png" alt=""></a>
-                    <a id="color-black" href="#"><img src="./img/order/Paint_Black.png" alt=""></a>
-                    <a id="color-red" href="#"><img src="./img/order/Paint_Red.png" alt=""></a>
+                    <a id="color-white" href="#" class="color active"><img id="color-white" src="./img/order/Paint_White.png" alt=""></a>
+                    <a id="color-silver" href="#" class="color"><img id="color-silver" src="./img/order/Paint_MidnightSilver.png" alt=""></a>
+                    <a id="color-blue" href="#" class="color"><img id="color-blue" src="./img/order/Paint_Blue.png" alt=""></a>
+                    <a id="color-black" href="#" class="color"><img id="color-black" src="./img/order/Paint_Black.png" alt=""></a>
+                    <a id="color-red" href="#" class="color"><img id="color-red" src="./img/order/Paint_Red.png" alt=""></a>
                 </div>
                 <div class="p1">
                     <p id="paint-name" class="body-2 text-center">Pearl White Multi-Coat</p>
@@ -97,16 +98,18 @@
                 
                 <h2>Wheels</h2>
                 <div class="options">
-                    <a id="wheel-aero" href="#" class="active"><img src="./img/order/option-wheels-18-aero.png" alt=""></a>
-                    <a id="wheel-sport" href="#"><img src="./img/order/option-wheels-19-sport.png" alt=""></a>
-                    <a id="wheel-uberturbine" href="#"><img src="./img/order/option-wheels-20-uberturbine.png" alt=""></a>
+                    <a id="wheel-aero" href="#" class="wheel active"><img id="wheel-aero" src="./img/order/option-wheels-18-aero.png" alt=""></a>
+                    <a id="wheel-sport" href="#" class="wheel"><img id="wheel-sport" src="./img/order/option-wheels-19-sport.png" alt=""></a>
+                    <a id="wheel-uberturbine" href="#" class="wheel"><img id="wheel-uberturbine" src="./img/order/option-wheels-20-uberturbine.png" alt=""></a>
                 </div>
                 <div class="p1">
                     <p id="wheel-name" class="body-2 text-center">18'' Aero Wheels</p>
                     <p id="wheel-price" class="body-1 text-center">Included</p>
                 </div>
                 
-                <h2>Interior</h2>
+                <!-- DISABLED FEATURE -->
+                
+                <!-- <h2>Interior</h2>
                 <div class="options">
                     <a id="wheel-aero" href="#" class="active"><img src="./img/order/Interior_Black.png" alt=""></a>
                     <a id="wheel-sport" href="#"><img src="./img/order/Interior_White.png" alt=""></a>
@@ -114,10 +117,10 @@
                 <div class="p1">
                     <p id="interior-name" class="body-2 text-center">All Black</p>
                     <p id="interior-price" class="body-1 text-center">Included</p>
-                </div>
+                </div> -->
                 
                 <h2>Full Self-Driving Capability</h2>
-                <h3 class="text-center body-2">$12,000</h3>
+                <h3 class="text-center body-2">$12.000</h3>
 
                 <ul>
                     <li>Navigate on Autopilot</li>
@@ -128,7 +131,7 @@
                     <li>Traffic Light and Stop Sign Control</li>
                 </ul>
 
-                <h3 class="body-2 text-centered-above-768">Coming Soon</h3>
+                <h3 class="body-2 text-centered-above-768 text-left-above-992">Coming Soon</h3>
                 <ul>
                     <li>Autosteer on city streets</li>
                 </ul>
@@ -144,7 +147,7 @@
         </div>
 
         <div class="final-price">
-            <p class="body-2">Final Price: $<span id="final-price"></span>41.940</p>
+            <p class="body-2">Final Price: $<span id="final-price">41.940</span></p>
         </div>
     </div>
 </body>

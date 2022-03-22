@@ -125,6 +125,17 @@ html {
     display: block;
     text-align: center;
     background: #3E6AE1;
+    border: 1px solid #3E6AE1;
+}
+
+.order-button-active {
+    background: #fff;
+    color: #171a20;
+    border: 1px solid #171a20;
+}
+
+.order-button-active:hover {
+    background: #ccc !important;
 }
 
 .btn-blue-big {
@@ -179,8 +190,10 @@ html {
     .text-centered-above-768 {
         text-align: center;
     }
+}
 
-    ul {
-        text-align: center;
+@media(min-width: 992px) {
+    .text-left-above-992 {
+        text-align: left;
     }
 }
