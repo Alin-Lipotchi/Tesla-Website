@@ -1,22 +1,22 @@
-// Scroll
+// Varianta scroll disabled pentru chrome desktop
 
-window.scroll(0,0);
+// window.scroll(0,0);
 
-const scroll = (e) => {
-    let height = window.innerHeight;
-    let currentY = window.scrollY
-    let scrollTo;
-    if (e.deltaY < 0) {
-        scrollTo = currentY - height;
-        window.scroll(0,scrollTo);
-    }
-    else if (e.deltaY > 0) {
-        scrollTo = currentY + height;
-        window.scroll(0,scrollTo);;
-    }
-}
+// const scroll = (e) => {
+//     let height = window.innerHeight;
+//     let currentY = window.scrollY
+//     let scrollTo;
+//     if (e.deltaY < 0) {
+//         scrollTo = currentY - height;
+//         window.scroll(0,scrollTo);
+//     }
+//     else if (e.deltaY > 0) {
+//         scrollTo = currentY + height;
+//         window.scroll(0,scrollTo);;
+//     }
+// }
 
-window.addEventListener('wheel', scroll);
+// window.addEventListener('wheel', scroll);
 
 // Hamburger 
 
